@@ -681,7 +681,10 @@
   <div class="deco-circle"></div>
 
   <!-- Imagem de fundo (mulher) — substitua pelo src real -->
-  <img class="hero-image" src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=900&q=80&fit=crop&crop=top" alt="Tratamento estético" />
+  <picture>
+    <source media="(max-width: 768px)" srcset="/images/hero/hero-doctor-face-m.PNG" />
+    <img class="hero-image" src="/images/hero/hero-doctor-face.PNG" alt="Doctor Face" />
+  </picture>
 
   <!-- NAV -->
   <nav>
@@ -713,7 +716,6 @@
 
   <!-- CONTEÚDO HERO -->
   <div class="hero-content">
-    <p class="hero-eyebrow">Clínica de Estética Premium</p>
     <h1 class="hero-headline">
       Transforme<br/>
       <em>sua beleza</em> com<br/>
